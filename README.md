@@ -24,11 +24,8 @@ PH .
 ---
 
 ## Resources
-  - Data sources:  
+  - Data sources: departments.csv, dept_emp.csv, dept_manager.csv, employees.csv, salaries.csv, titles.csv 
   - Software: Python 3.8.3, Pandas, Matplotlib, Jupyter Notebook, Windows10, PostgreSQL 12, pgAdmin4 4.24 
-
-
-
 
 
 ---
