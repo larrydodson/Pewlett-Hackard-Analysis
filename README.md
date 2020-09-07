@@ -10,11 +10,12 @@
 ---
 
 # Background and Purpose
-PyBer . 
+
+Pewlett-Hackard, also known as "PH", is upgrading its employee database structure, and will using SQL as the database querey language. This project is assisting Bobby in building the new employye database, using SQL and utilizing applications of data modeling, data engineering and analysis. 
 
 
 ## Purpose
-PyBer .
+PH .
 
 
 
