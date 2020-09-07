@@ -25,7 +25,8 @@ PH .
 
 ## Resources
   - Data sources: departments.csv, dept_emp.csv, dept_manager.csv, employees.csv, salaries.csv, titles.csv 
-  - Software: Python 3.8.3, Pandas, Matplotlib, Jupyter Notebook, Windows10, PostgreSQL 12, pgAdmin4 4.24 
+  - Software: Python 3.8.3, Pandas, Matplotlib, Jupyter Notebook, Windows10, PostgreSQL 12, pgAdmin4 4.24
+  - Tools: Quick Database Diagrams ("Quick DBD")
 
 
 ---
@@ -33,8 +34,14 @@ PH .
 # Results of Analysis
 
 ![]()
+
+
+![EmployeeDB.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/EmployeeDB.png)
+
+
 ![]()
-![]()
+
+
 ![]()
 
 
