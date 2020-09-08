@@ -54,4 +54,5 @@ CREATE TABLE titles (
 	FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
 	PRIMARY KEY (emp_no)
 );
-SELECT * FROM departments;
+SELECT * FROM dept_emp;
+
