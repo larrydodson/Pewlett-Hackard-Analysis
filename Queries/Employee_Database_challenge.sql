@@ -4,6 +4,7 @@
 SELECT * FROM employees;
 SELECT * FROM titles;
 SELECT * FROM dept_emp;
+SELECT * FROM retirement_titles;
 
 -- Creating retirement_titles table
 SELECT e.emp_no,
@@ -14,41 +15,24 @@ FROM employees as e
 LEFT JOIN titles as tt 
 	ON e.emp_no = tt.emp_no
 WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
-ORDER BY emp_no
+ORDER BY emp_no, from_date
 ;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 -- Use Dictinct with Orderby to remove duplicate rows
+SELECT rt.emp_no, 
+	rt.first_name, rt.last_name,
+	rt.title
+
 SELECT DISTINCT ON (______) _____,
 ______,
 ______,
 ______
 
-INTO nameyourtable
-FROM _______
-ORDER BY _____, _____ DESC;
+--INTO unique_titles
+FROM retirement_titles AS rt 
 
-
-
-
-
-
-
+ORDER BY emp_no, to_date DESC
+;
 
 
 
