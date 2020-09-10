@@ -4,12 +4,12 @@
 # Contents
   * Background and Purpose
   * Resources
-  * Results of Analysis
+  * Results
   * Summary 
 
 ---
 
-# Background and Purpose
+# Overview and Purpose
 
 Pewlett-Hackard, also known as "PH", is upgrading its employee database structure, and will using SQL as the database query language. This project is assisting Bobby in building the new employee database, using SQL and utilizing applications of data modeling, data engineering and analysis. 
 
@@ -31,7 +31,24 @@ PH .
 
 ---
 
-# Results of Analysis
+# Results
+  (a bulleted list with four major points from the two analysis deliverables. Use images as support where needed) 
+
+### Deliverable 1: The Number of Retiring Employees by Title
+
+
+### Deliverable 2: The Employees Eligible for the Mentorship Program
+
+
+  1. k
+  2. L
+  3. M
+  4. mmm 
+  
+  
+
+
+
 
 ![]()
 
@@ -46,13 +63,30 @@ PH .
 
 
 
+
 ---
 
 # Summary
 
+Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
+(addresses the two questions and contains two additional queries or tables that may provide more insight) 
+
+### Two Questions and Replies - 
+  1. How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+  
+  
+  
+  2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
 
 
+
+### Additional insights into the upcoming "silver tsunami"
+  1. xyz 
+  
+  2. abc 
+  
+  
 .
 
 .end 
