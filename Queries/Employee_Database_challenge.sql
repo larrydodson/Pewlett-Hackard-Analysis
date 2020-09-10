@@ -15,22 +15,16 @@ FROM employees as e
 LEFT JOIN titles as tt 
 	ON e.emp_no = tt.emp_no
 WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
-ORDER BY emp_no, from_date
+ORDER BY emp_no, to_date DESC
+--ORDER BY emp_no, from_date
 ;
 
 -- Use Dictinct with Orderby to remove duplicate rows
-SELECT rt.emp_no, 
-	rt.first_name, rt.last_name,
-	rt.title
-
-SELECT DISTINCT ON (______) _____,
-______,
-______,
-______
-
---INTO unique_titles
-FROM retirement_titles AS rt 
-
+SELECT DISTINCT ON (emp_no) emp_no,
+	first_name, last_name,
+	title
+INTO unique_titles
+FROM retirement_titles as rt 
 ORDER BY emp_no, to_date DESC
 ;
 
