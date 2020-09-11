@@ -38,7 +38,7 @@ ORDER BY ut.count DESC
 ;
 
 -- Deliverable 2: The Employees Eligible for the Mentorship Program
---   Creating mentorship_cand table, as interim data table
+--   Creating mentorship_cand table, as interim candidate table
 SELECT e.emp_no,
 	e.first_name, e.last_name, 
 	e.birth_date,
@@ -62,4 +62,12 @@ SELECT DISTINCT ON (emp_no) emp_no,
 INTO mentorship_eligibilty
 FROM mentorship_cand AS mc 
 ORDER BY emp_no
+;
+
+-- Creating a mentorship count by title
+SELECT COUNT(title), title
+--INTO mentorship_count 
+FROM mentorship_eligibilty as me
+GROUP BY title
+ORDER BY me.count DESC
 ;
