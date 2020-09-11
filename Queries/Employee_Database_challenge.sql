@@ -38,36 +38,28 @@ ORDER BY ut.count DESC
 ;
 
 -- Deliverable 2: The Employees Eligible for the Mentorship Program
-
--- Creating mentorship_eligibilty table
--- Use Dictinct with Orderby to remove duplicate rows
+--   Creating mentorship_cand table, as interim data table
 SELECT e.emp_no,
-	e.first_name, e.last_name, e.birth_date,
+	e.first_name, e.last_name, 
+	e.birth_date,
 	de.from_date, de.to_date, 
-	--tt.title
-
--- INTO mentorship_eligibilty
-FROM employees as e 
-	LEFT JOIN dept_emp as de
+	tt.title
+--INTO mentorship_cand
+FROM employees AS e 
+	LEFT JOIN dept_emp AS de
 		ON e.emp_no = de.emp_no
-	LEFT JOIN titles as tt
+	LEFT JOIN titles AS tt
 		ON e.emp_no = tt.emp_no
-	WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
-
+	WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31') 
+		AND (de.to_date = '9999-01-01')
 ORDER BY e.emp_no;
 
-
-
---WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
-
-SELECT DISTINCT ON (e.emp_no) e.emp_no,
-	e.first_name, e.last_name, e.birth_date,
-	de.from_date, de.to_date, tt.title
-ORDER BY e.emp_no, de.to_date DESC
+-- Use Dictinct ON with Order by to remove duplicate rows
+--   Creating mentorship_eligibilty table
+SELECT DISTINCT ON (emp_no) emp_no,
+	first_name, last_name, birth_date,
+	from_date, to_date, title
+INTO mentorship_eligibilty
+FROM mentorship_cand AS mc 
+ORDER BY emp_no
 ;
-
---ORDER BY e.emp_no
-;
-
-
-
