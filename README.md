@@ -28,7 +28,7 @@ This project is assisting Bobby in building the new employee SQL compatible data
 For the data modeling, the below Entity Relationship Diagram (ERD), was prepared using the information in the provided six csv files. The ERD aided the process of constructing the needed SQL instructions and queries. 
  
 
-| Data csv Files | Entity Relationship Diagram (ERD) |
+| **Data csv Files** | **Entity Relationship Diagram (ERD)** |
 | :---         |     :---:      |
 | departments.csv, dept_emp.csv, dept_manager.csv, employees.csv, salaries.csv, titles.csv |    ![Employee2DB.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/Employee2DB.png)     |
 
