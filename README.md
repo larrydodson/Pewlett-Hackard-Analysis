@@ -75,6 +75,17 @@ The ERD flowchart highlights the type of information contained within data table
 ### Deliverable 2: The Employees Eligible for the Mentorship Program
 
 
+| **Deliverable** | |
+| :---         |     :---:      |
+|  | **Mentorship Eligible Table**  |
+| To create this table of the employees that are eligible to participate in a Mentorship Program, data values were grouped and filtered on birth-dates between Jan 1 and Dec 31, 1965. Next the DISTINCT ON statement was used to remove duplicate rows, and GROUP BY for the most recent title. And finally, ORDERED BY the employee number.  | ![mentorship_eligibility.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/mentorship_eligibility.png) |
+|  | **Mentorship Count per Title Table** |
+| The number of employees and their titles that are eligible for the Mentorship Program. | ![mentorship_count.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/mentorship_count.png) |
+
+
+
+.
+
   1. k
   2. L
   3. M
