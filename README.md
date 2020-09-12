@@ -30,9 +30,9 @@ Assignments were to identify:
 
 For the data modeling, the below Entity Relationship Diagram (ERD), was prepared using the information in the provided six csv files. The ERD aided the process of constructing the needed SQL instructions and queries. 
  
-| **Entity Relationship Diagram (ERD)** |
-|     :---:      |
-| ![Employee2DB.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/Employee2DB.png) |
+   | **Entity Relationship Diagram (ERD)** |
+   |     :---:      |
+   | ![Employee2DB.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/Employee2DB.png) |
 
 
 The ERD flowchart highlights the type of information contained within data tables and the relationships to each other. The ERD tool also includes the following from each CSV file:
@@ -59,16 +59,15 @@ The ERD flowchart highlights the type of information contained within data table
 
 |  | **Deliverable** |
 |  | :---         |
-|  |  |
 | 1a | **Retirement Titles Table**  |
 |  | To begin, data values were retrieved from the tables for employees and titles, creating a new table joined on the primary key "emp_no". The data was filtered on the birth_date column, for employees born between 1952 and 1955. This highlighted the occurance of duplicate employee numbers for the same employee.|
 |  | ![retirement_titles.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/retirement_titles.png) |
 |  |  |
-| 1b |  | **Unique Titles Table** |
+| 1b | **Unique Titles Table** |
 |  | Using the previous interim table that identified retirement elibible employees, next the DISTINCT ON statement was used to sort remove the duplicate rows. Also the ORDER BY clause was used to sort/filter so that the most recent title was captured as the first row of the duplicate emp_no. |
 |  | ![unique_titles.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/unique_titles.png) |
 |  |  |
-| 1c |  | **Retiring Titles Count Table** |
+| 1c | **Retiring Titles Count Table** |
 |  | Finally, The Number of Retiring Employees by Title as "Retiring Titles", derived from the Unique Titles Table. |
 |  | ![retiring_titles.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/retiring_titles.png) |
 
