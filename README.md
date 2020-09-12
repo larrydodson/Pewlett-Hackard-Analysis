@@ -65,7 +65,7 @@ The ERD flowchart highlights the type of information contained within data table
 |  | **Unique Titles Table** |
 | Using the previous interim table that identified retirement elibible employees, next the DISTINCT ON statement was used to sort remove the duplicate rows. Also the ORDER BY clause was used to sort/filter so that the most recent title was captured as the first row of the dup emp_no. | ![unique_titles.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/unique_titles.png) |
 |  | **Retiring Titles Count Table** |
-| Finally, the number or count of titles was created as "Retiring Titles", from the Unique Titles Table. | ![retiring_titles.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/retiring_titles.png) |
+| Finally, The Number of Retiring Employees by Title as "Retiring Titles", derived from the Unique Titles Table. | ![retiring_titles.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/retiring_titles.png) |
 
 
 
