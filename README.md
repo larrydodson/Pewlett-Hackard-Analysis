@@ -71,9 +71,6 @@ The ERD flowchart highlights the type of information contained within data table
 ![]()
 
 
-![EmployeeDB.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/EmployeeDB.png)
-
-
 ![]()
 
 
