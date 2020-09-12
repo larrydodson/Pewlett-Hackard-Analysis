@@ -58,18 +58,18 @@ The ERD flowchart highlights the type of information contained within data table
 
 
 |  | **Deliverable** |
-| :---: | :---         |
-| 1a | **Retirement Titles Table**  |
+| :--- | :---         |
+|  | **Retirement Titles Table**  |
 |  | To begin, data values were retrieved from the tables for employees and titles, creating a new table joined on the primary key "emp_no". The data was filtered on the birth_date column, for employees born between 1952 and 1955. This highlighted the occurance of duplicate employee numbers for the same employee.|
-|  | ![retirement_titles.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/retirement_titles.png) |
+| **Figure-1a** | ![retirement_titles.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/retirement_titles.png) |
 |  |  |
-| 1b | **Unique Titles Table** |
+|  | **Unique Titles Table** |
 |  | Using the previous interim table that identified retirement elibible employees, next the DISTINCT ON statement was used to sort remove the duplicate rows. Also the ORDER BY clause was used to sort/filter so that the most recent title was captured as the first row of the duplicate emp_no. |
-|  | ![unique_titles.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/unique_titles.png) |
+| **Figure-1b** | ![unique_titles.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/unique_titles.png) |
 |  |  |
-| 1c | **Retiring Titles Count Table** |
+|  | **Retiring Titles Count Table** |
 |  | Finally, The Number of Retiring Employees by Title as "Retiring Titles", derived from the Unique Titles Table. |
-|  | ![retiring_titles.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/retiring_titles.png) |
+| **Figure-1c** | ![retiring_titles.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/retiring_titles.png) |
 
 
 
@@ -78,13 +78,15 @@ The ERD flowchart highlights the type of information contained within data table
 ### Deliverable 2: The Employees Eligible for the Mentorship Program
 
 
-| **Deliverable: Mentorship Eligible Table** | |
-| :---         |     :---:      |
-| To create this table of the employees that are eligible to participate in a Mentorship Program, data values were grouped and filtered on birth-dates between Jan 1 and Dec 31, 1965. Next the DISTINCT ON statement was used to remove duplicate rows, and GROUP BY for the most recent title. And finally, ORDERED BY the employee number. |  |
-| ![mentorship_eligibility.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/mentorship_eligibility.png) |  |
-|  |  |
-| **Mentorship Count per Title Table**  The number of employees and their titles that are eligible for the Mentorship Program. |  |
-| ![mentorship_count.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/mentorship_count.png) |  |
+| **Deliverable: Mentorship Eligible Table** |
+| :---         | 
+| To create this table of the employees that are eligible to participate in a Mentorship Program, data values were grouped and filtered on birth-dates between Jan 1 and Dec 31, 1965. Next the DISTINCT ON statement was used to remove duplicate rows, and GROUP BY for the most recent title. And finally, ORDERED BY the employee number. | 
+| **Figure-2a** |
+| ![mentorship_eligibility.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/mentorship_eligibility.png) | 
+|  | 
+| **Mentorship Count per Title Table**  The number of employees and their titles that are eligible for the Mentorship Program. |
+| **Figure-2b** |
+| ![mentorship_count.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/mentorship_count.png) |
 
 
 
