@@ -57,9 +57,8 @@ The ERD flowchart highlights the type of information contained within data table
 ### Deliverable 1: The Number of Retiring Employees by Title
 
 
-|  | **Deliverable** |
 | :--- | :---         |
-|  | **Retirement Titles Table**  |
+| ........... | **Retirement Titles Table**  |
 |  | To begin, data values were retrieved from the tables for employees and titles, creating a new table joined on the primary key "emp_no". The data was filtered on the birth_date column, for employees born between 1952 and 1955. This highlighted the occurance of duplicate employee numbers for the same employee.|
 | **Figure-1a** | ![retirement_titles.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/retirement_titles.png) |
 |  |  |
