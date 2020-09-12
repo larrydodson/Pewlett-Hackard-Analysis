@@ -24,13 +24,16 @@ With the available employee information that includes birth-dates, as well as st
 Pewlett-Hackard, also known as "P-H", is upgrading its employee database structure, and will using SQL as the database query language. The relational database will be set up on PostgreSQL, and using pgAdmin as the user interface access system. 
 
 This project is assisting Bobby in building the new employee SQL compatible database, and utilizing applications of data modeling, data engineering and data analysis. The project focus is on employees and preparation planning for retirement scenarios. 
+Assignments were to identify: 
+1) The number of retiring employees with their names, titles and departments, and 
+2) The employees that are available for a new Mentorship program. 
 
 For the data modeling, the below Entity Relationship Diagram (ERD), was prepared using the information in the provided six csv files. The ERD aided the process of constructing the needed SQL instructions and queries. 
  
 
 | **Data csv Files** | **Entity Relationship Diagram (ERD)** |
 | :---         |     :---:      |
-| departments.csv, dept_emp.csv, dept_manager.csv, employees.csv, salaries.csv, titles.csv |    ![Employee2DB.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/Employee2DB.png)     |
+| departments.csv, dept_emp.csv, dept_manager.csv, employees.csv, salaries.csv, titles.csv | ![Employee2DB.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/Employee2DB.png) |
 
 
 The ERD flowchart highlights the type of information contained within data tables and the relationships to each other. The ERD tool also includes the following from each CSV file:
@@ -43,10 +46,10 @@ The ERD flowchart highlights the type of information contained within data table
 ### Resources
 
 - Data sources: departments.csv, dept_emp.csv, dept_manager.csv, employees.csv, salaries.csv, titles.csv
-- Software: Python 3.8.3, Pandas, Matplotlib, Jupyter Notebook, Windows10, PostgreSQL 12, pgAdmin4 4.24
+- Software: Windows10, PostgreSQL 12, pgAdmin4 4.24
 - Tools: Quick Database Diagrams ("Quick DBD")
 
----
+
 ---
 
 # Results
