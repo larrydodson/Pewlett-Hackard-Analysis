@@ -24,7 +24,7 @@ With the available employee information that includes birth-dates, as well as st
 Pewlett-Hackard, also known as "P-H", is upgrading its employee database structure, and will using SQL as the database query language. The relational database will be set up on PostgreSQL, and using pgAdmin as the user interface access system. 
 
 This project is assisting Bobby in building the new employee SQL compatible database, and utilizing applications of data modeling, data engineering and data analysis. The project focus is on employees and preparation planning for retirement scenarios. 
-Assignments were to identify: 
+The assignments were to generate these two major Deliverable actions: 
 1) The number of retiring employees with their names, titles and departments, and 
 2) The employees that are available for a new Mentorship program. 
 
@@ -52,11 +52,9 @@ The ERD flowchart highlights the type of information contained within data table
 ---
 
 # Results
-  (a bulleted list with four major points from the two analysis deliverables. Use images as support where needed) 
+   Below are descriptions and copies of the Tables that were generated for each of the two major Deliverables. 
 
 ### Deliverable 1: The Number of Retiring Employees by Title
-
-
 
 | ....................... | **Retirement Titles Table**  |
 | :--- | :---  |
@@ -72,11 +70,10 @@ The ERD flowchart highlights the type of information contained within data table
 | **Figure-1c** | ![retiring_titles.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/retiring_titles.png) |
 
 
-
 .
 
-### Deliverable 2: The Employees Eligible for the Mentorship Program
 
+### Deliverable 2: The Employees Eligible for the Mentorship Program
 
 | **Deliverable: Mentorship Eligible Table** |
 | :---         | 
@@ -96,7 +93,11 @@ The ERD flowchart highlights the type of information contained within data table
   2. L
   3. M
   4. mmm 
-  
+
+
+.
+
+![retire_dept.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/retire_dept.png)
   
 
 
