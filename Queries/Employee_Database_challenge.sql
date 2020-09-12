@@ -2,10 +2,10 @@
 
 --   Deliverable-1 The Number of Retiring Employees 
 
-SELECT * FROM employees;
-SELECT * FROM titles;
-SELECT * FROM dept_emp;
-SELECT * FROM retirement_titles;
+-- SELECT * FROM employees;
+-- SELECT * FROM titles;
+-- SELECT * FROM dept_emp;
+-- SELECT * FROM retirement_titles;
 
 -- Creating retirement_titles table
 SELECT e.emp_no,
@@ -42,17 +42,18 @@ ORDER BY ut.count DESC
 SELECT e.emp_no,
 	e.first_name, e.last_name, 
 	e.birth_date,
-	de.from_date, de.to_date, 
+	tt.from_date, de.to_date, 
 	tt.title
 --INTO mentorship_cand
 FROM employees AS e 
-	LEFT JOIN dept_emp AS de
+	INNER JOIN dept_emp AS de
 		ON e.emp_no = de.emp_no
-	LEFT JOIN titles AS tt
+	INNER JOIN titles AS tt
 		ON e.emp_no = tt.emp_no
 	WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31') 
 		AND (de.to_date = '9999-01-01')
-ORDER BY e.emp_no;
+ORDER BY e.emp_no, tt.from_date DESC
+;
 
 -- Use Dictinct ON with Order by to remove duplicate rows
 --   Creating mentorship_eligibilty table
