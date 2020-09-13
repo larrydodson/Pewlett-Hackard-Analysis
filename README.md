@@ -126,14 +126,6 @@ The ERD flowchart highlights the type of information contained within data table
 
 ![emp_3counts.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/emp_3counts.png)
 
-.
-
-
-| **Retirees by Title** (from above) | **Retirees by Department** |  **Mentorship Count per Title**  |
-| :--- | :---  | :---  |
-|  **Figure-3** The Number of Retiring Employees by Title | **Figure-4** The Number of Retiring Employees by Department | **Figure-5** The number of employees and their titles, eligible for the Mentorship Program.  |
-| ![retiring_titles.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/retiring_titles.png) | ![retire_dept.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/retire_dept.png) | ![mentorship_count.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/mentorship_count.png) |
-
 
 .
 
