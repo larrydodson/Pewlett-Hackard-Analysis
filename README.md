@@ -86,9 +86,9 @@ The ERD flowchart highlights the type of information contained within data table
 
   1. **Diligence on the use of "dates"**: --  For accurate analysis, great care was needed when using the employee "from_date" and "to_date" data. As was noted, there were duplicate employee numbers ("emp_no"), and were created when an employee's titled changed over their career, and the record remained in the data. In order to arrive at accurate numbers for total employees, and for retiring employees, as well as those that were candidates for the Mentorship Program, attention was needed to use the correct date.
     
-  2. **Recommnedation on correct date for accuracy**:  --  Instructions within 2nd part of the assignment Challenge included using the from_date from the "Department Employee" table. However, to arrive at an accurate date for the most recent employee title, it may be recommended to instead use the from_date within the "Titles" table.   
+  2. **Recommendation on correct date for accuracy**:  --  Instructions within 2nd part of the assignment Challenge included using the from_date from the "Department Employee" table. However, to arrive at an accurate date for the most recent employee title, it may be recommended to instead use the from_date within the "Titles" table.   
     
-  3. **Large percentage of retirees expected**:  --  From the data, the company has a very large number of total employees at about 300,000. A retirement scenario exists that a large number of employees are reaching the retirement age, and as a result will create the possibility for a "silver tsunami", where a large number will retire within a 3-4 year window. There are over 90,000 employees witin the retirement window, and this represents a large percentage of employees at approximately 30%. A third of the workforce would be retiring within a 3-4 year window. As the company has realized, advanced planning is needed for such a large percent. 
+  3. **Large percentage of retirees expected**:  --  From the data, the company has a very large number of total employees at about 300,000. A retirement scenario exists that a large number of employees are reaching the retirement age, and as a result will create the possibility for a "silver tsunami", where a large number will retire within a 3-4 year window. There are over 90,000 employees within the retirement window, and this represents a large percentage of employees at approximately 30%. A third of the workforce would be retiring within a 3-4 year window. As the company has realized, advanced planning is needed for such a large percent. 
     
   4. **Majority number of retirees are at the most senior positions**:  --  As seen in table in Figure-1c above on "Retiring Titles", by far most of the employees coming to retirement age are at the most senior roles of Senior Engineer and Senior Staff. This is 57,668 employees, representing 64% of all retiring employees. This another major factor to consider for planning with the coming "silver tsunami" :) 
 
@@ -107,7 +107,7 @@ The ERD flowchart highlights the type of information contained within data table
   
   2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett-Hackard employees?
   
-  What is shown in Figure-5 and Figure-3 below, is that the number of candidates as mentors is very limited, when compared to the number of employees to retire based on Title.  This ratio is high, and likely not maintainable. Examples - For Technique Leader the ratio is 77 Mentors to 4,502 retiring. For Staff it is 155 Mentors to 40,497 Sr and Staff retiring. These are very high ratios, and likely very difficult to maintain.
+  What is shown in Figure-5 and Figure-3 below, is that the number of candidates as mentors is very limited, when compared to the number of employees to retire based on Title.  This ratio is high, and likely not maintainable. Examples - For Technique Leader the ratio is 77 Mentors to 4,502 retiring. For Staff it is 155 Mentors to 40,497 Sr and Staff retiring. These are extremely high ratios, and likely very difficult to maintain.
 
 .
 
@@ -117,9 +117,10 @@ The ERD flowchart highlights the type of information contained within data table
   2. When looking at the numbers of employees as possible Mentors, shown in Figure-5, we see that for employees as Engineers, there would be 43,636 Senior Engineer and Engineer roles retiring. And, the Mentor staff at 529 Senior Engineers available with possibly another 190 experienced Engineers, for a total of 719 as Mentors. Therefore, 719 Mentors for an expected 43,636 new Engineer employees, for a ratio of 60 employees per Mentor.
   
   3. Based on the above information and insights, it would be recommended that the P-H look at other programs to mitigate the Tsunami. Other programs to be considered could include: 
-    - Hiring more advanced levels and for experience, where Mentoring is not a requirement, 
-    - Implement Training Programs for new-Hires, that take into accout the large loss of experienced employees, 
-    - Establish retaining enticements such as bonuses and income to experienced retiring qualified employees to remain working and as Mentors longer to fill the gaps in time to hire and train new people. 
+  
+   - Hiring more advanced levels and for experience, where Mentoring is not a requirement, 
+   - Implement Training Programs for new-Hires, that take into account the large loss of experienced employees, 
+   - Establish retaining enticements such as bonuses and income to experienced retiring qualified employees to remain working and as Mentors longer to fill the gaps in time to hire and train new people. 
   
 
 
