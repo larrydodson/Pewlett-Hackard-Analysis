@@ -100,14 +100,10 @@ The ERD flowchart highlights the type of information contained within data table
 # Summary
 
 ### Two Questions and Replies 
-  1. How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-  
-  Over the three to four year period of the "Silver Tsunami", there will be approx. 90,398 employees retiring from the company. IF the company is to maintain the current number of workforce, these roles will need to be filled.
+  1. **How many roles will need to be filled as the "silver tsunami" begins to make an impact?**  --   Over the three to four year period of the "Silver Tsunami", there will be approx. 90,398 employees retiring from the company. IF the company is to maintain the current number of workforce, these roles will need to be filled.
   
   
-  2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett-Hackard employees?
-  
-  What is shown in Figure-5 and Figure-3 below, is that the number of candidates as mentors is very limited, when compared to the number of employees to retire based on Title.  This ratio is high, and likely not maintainable. Examples - For Technique Leader the ratio is 77 Mentors to 4,502 retiring. For Staff it is 155 Mentors to 40,497 Sr and Staff retiring. These are extremely high ratios, and likely very difficult to support.
+  2. **Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett-Hackard employees?**  --  What is shown in Figure-5 and Figure-3 below, is that the number of candidates as mentors is very limited, when compared to the number of employees to retire based on Title.  This ratio is high, and likely not maintainable. Examples - For Technique Leader the ratio is 77 Mentors to 4,502 retiring. For Staff it is 155 Mentors to 40,497 Sr and Staff retiring. These are extremely high ratios, and likely very difficult to support.
 
 .
 
