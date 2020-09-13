@@ -114,13 +114,19 @@ The ERD flowchart highlights the type of information contained within data table
 ### Additional insights into the upcoming "silver tsunami"
   1. The number of retiring employees by their department is shown in Figure-4 below. It is shown that the Departments with the major impacts are in "Development", "Production", and "Sales". Of the 90k+ employees leaving, approx. 70% are represented by these three departments. All nine departments have a major turn-over coming with thousands of employees to leave and new candidates to be hired and trained. 
   
-  2. When looking at the numbers of employees as possible Mentors, shown in Figure-5, we see that for employees as Engineers, there would be 43,636 Senior Engineer and Engineer roles retiring. And, the Mentor staff at 529 Senior Engineers available with possibly another 190 experienced Engineers, for a total of 719 as Mentors. Therefore, 719 Mentors for an expected 43,636 new Engineer employees, for a ratio of 60 employees per Mentor.
+  2. When looking at the numbers of employees as possible Mentors, shown in Figure-5, we see that for employees as Engineers, there would be 43,636 Senior Engineer and Engineer roles retiring (reference Figure-3). And, the Mentor staff at 529 Senior Engineers available with possibly another 190 experienced Engineers, for a total of 719 as Mentors. Therefore, 719 Mentors for an expected 43,636 new Engineer employees, for a ratio of 60 employees per Mentor.
   
   3. Based on the above information and insights, it would be recommended that the P-H look at other programs to mitigate the Tsunami. Other programs to be considered could include:  
    - Hiring more advanced levels and for experience, where Mentoring is not a requirement, 
    - Implement Training Programs for new-Hires, that take into account the large loss of experienced employees, 
    - Establish retaining enticements such as bonuses and income to experienced retiring qualified employees to remain working and as Mentors longer to fill the gaps in time to hire and train new people. 
   
+
+
+
+![emp_3counts.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/emp_3counts.png)
+
+.
 
 
 | **Retirees by Title** (from above) | **Retirees by Department** |  **Mentorship Count per Title**  |
