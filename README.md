@@ -64,10 +64,6 @@ The ERD flowchart highlights the type of information contained within data table
 |  | **Unique Titles Table** |
 |  | Using the previous interim table that identified retirement elibible employees, next the DISTINCT ON statement was used to sort remove the duplicate rows. Also the ORDER BY clause was used to sort/filter so that the most recent title was captured as the first row of the duplicate emp_no. |
 | **Figure-1b** | ![unique_titles.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/unique_titles.png) |
-|  |  |
-|  | **Retiring Titles Count Table** |
-|  | The Number of Retiring Employees by Title as "Retiring Titles", derived from the Unique Titles Table. |
-| **Figure-1c** | ![retiring_titles.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/retiring_titles.png) |
 
 
 .
@@ -80,7 +76,7 @@ The ERD flowchart highlights the type of information contained within data table
 | To create this table of the employees that are eligible to participate in a Mentorship Program, data values were grouped and filtered on birth-dates between Jan 1 and Dec 31, 1965. Next the DISTINCT ON statement was used to remove duplicate rows, and GROUP BY for the most recent title. And finally, ORDERED BY the employee number. | 
 | **Figure-2a** |
 | ![mentorship_eligibility.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/mentorship_eligibility.png) | 
-|  | 
+|  |  |
 | **Mentorship Count per Title Table**  The number of employees and their titles that are eligible for the Mentorship Program. |
 | **Figure-2b** |
 | ![mentorship_count.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/mentorship_count.png) |
@@ -88,6 +84,7 @@ The ERD flowchart highlights the type of information contained within data table
 
 
 .
+provide a bulleted list with four major points from the two analysis deliverables.
 
   1. k
   2. L
@@ -97,7 +94,6 @@ The ERD flowchart highlights the type of information contained within data table
 
 .
 
-![retire_dept.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/retire_dept.png)
   
 
 
@@ -125,7 +121,20 @@ Provide high-level responses to the following questions, then provide two additi
   
   2. abc 
   
-  
+
+
+|  | **Retirees by Titles** | **Retirees by Department** |
+| :--- | :---  | :---  |
+|  | *The Number of Retiring Employees by Title | The Number of Retiring Employees by Department* |
+| **Figure-3a** | ![retiring_titles.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/retiring_titles.png) | ![retire_dept.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/retire_dept.png) |
+
+
+
+
+
+
+
+
 .
 
 .end 
