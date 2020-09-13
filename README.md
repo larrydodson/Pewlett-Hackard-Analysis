@@ -66,6 +66,7 @@ The ERD flowchart highlights the type of information contained within data table
 | **Figure-1b** | ![unique_titles.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/unique_titles.png) |
 |  |  |
 |  | **Retiring Titles Table** |
+|  | The number of employees by their most recent job title who are about to retire. |
 | **Figure-1c** | ![retiring_titles.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/retiring_titles.png) |
 
 .
@@ -121,13 +122,11 @@ Provide high-level responses to the following questions, then provide two additi
   
 
 
-|  | **Retirees by Titles** | **Retirees by Department** |
+| **Retirees by Titles** | **Retirees by Department** |  **Mentorship Count per Title**  |
 | :--- | :---  | :---  |
-|  |  **Figure-3** *The Number of Retiring Employees by Title* | **Figure-4** *The Number of Retiring Employees by Department* |
-| | ![retiring_titles.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/retiring_titles.png) | ![retire_dept.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/retire_dept.png) |
-|  |  |
-| **Mentorship Count per Title Table**  The number of employees and their titles that are eligible for the Mentorship Program. |
-| **Figure-5** |  | ![mentorship_count.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/mentorship_count.png) |
+|  **Figure-3** The Number of Retiring Employees by Title | **Figure-4** The Number of Retiring Employees by Department | **Figure-5** The number of employees and their titles, eligible for the Mentorship Program.  |
+| ![retiring_titles.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/retiring_titles.png) | ![retire_dept.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/retire_dept.png) | ![mentorship_count.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/mentorship_count.png) |
+
 
 
 
