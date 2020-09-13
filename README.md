@@ -107,7 +107,7 @@ The ERD flowchart highlights the type of information contained within data table
   
   2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett-Hackard employees?
   
-  What is shown in Figure-5 and Figure-3 below, is that the number of candidates as mentors is very limited, when compared to the number of employees to retire based on Title.  This ratio is high, and likely not maintainable. Examples - For Technique Leader the ratio is 77 Mentors to 4,502 retiring. For Staff it is 155 Mentors to 40,497 Sr and Staff retiring. These are extremely high ratios, and likely very difficult to maintain.
+  What is shown in Figure-5 and Figure-3 below, is that the number of candidates as mentors is very limited, when compared to the number of employees to retire based on Title.  This ratio is high, and likely not maintainable. Examples - For Technique Leader the ratio is 77 Mentors to 4,502 retiring. For Staff it is 155 Mentors to 40,497 Sr and Staff retiring. These are extremely high ratios, and likely very difficult to support.
 
 .
 
@@ -116,8 +116,7 @@ The ERD flowchart highlights the type of information contained within data table
   
   2. When looking at the numbers of employees as possible Mentors, shown in Figure-5, we see that for employees as Engineers, there would be 43,636 Senior Engineer and Engineer roles retiring. And, the Mentor staff at 529 Senior Engineers available with possibly another 190 experienced Engineers, for a total of 719 as Mentors. Therefore, 719 Mentors for an expected 43,636 new Engineer employees, for a ratio of 60 employees per Mentor.
   
-  3. Based on the above information and insights, it would be recommended that the P-H look at other programs to mitigate the Tsunami. Other programs to be considered could include: 
-  
+  3. Based on the above information and insights, it would be recommended that the P-H look at other programs to mitigate the Tsunami. Other programs to be considered could include:  
    - Hiring more advanced levels and for experience, where Mentoring is not a requirement, 
    - Implement Training Programs for new-Hires, that take into account the large loss of experienced employees, 
    - Establish retaining enticements such as bonuses and income to experienced retiring qualified employees to remain working and as Mentors longer to fill the gaps in time to hire and train new people. 
@@ -128,9 +127,6 @@ The ERD flowchart highlights the type of information contained within data table
 | :--- | :---  | :---  |
 |  **Figure-3** The Number of Retiring Employees by Title | **Figure-4** The Number of Retiring Employees by Department | **Figure-5** The number of employees and their titles, eligible for the Mentorship Program.  |
 | ![retiring_titles.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/retiring_titles.png) | ![retire_dept.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/retire_dept.png) | ![mentorship_count.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/mentorship_count.png) |
-
-
-
 
 
 .
