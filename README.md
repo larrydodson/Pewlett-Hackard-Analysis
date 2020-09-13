@@ -107,17 +107,19 @@ The ERD flowchart highlights the type of information contained within data table
   
   2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett-Hackard employees?
   
-  What is shown in Figure-5 and Figure-3 below, is that the number of candidates as mentors is very limited, when compared to the number of employees to retire based on Title.  This ratio is high, and likely not maintainable. For Technique Leader the ratio is 77 Mentors to 4,502 retiring. For Staff is is 155 Mentors to 40,497 Sr and Staff retiring. These are very high ratios, as example, and likely will be very hard to maintain.
+  What is shown in Figure-5 and Figure-3 below, is that the number of candidates as mentors is very limited, when compared to the number of employees to retire based on Title.  This ratio is high, and likely not maintainable. Examples - For Technique Leader the ratio is 77 Mentors to 4,502 retiring. For Staff it is 155 Mentors to 40,497 Sr and Staff retiring. These are very high ratios, and likely very difficult to maintain.
 
-
-
+.
 
 ### Additional insights into the upcoming "silver tsunami"
   1. The number of retiring employees by their department is shown in Figure-4 below. It is shown that the Departments with the major impacts are in "Development", "Production", and "Sales". Of the 90k+ employees leaving, approx. 70% are represented by these three departments. All nine departments have a major turn-over coming with thousands of employees to leave and new candidates to be hired and trained. 
   
-  2. When looking at the numbers of employees as possible Mentors, shown in Figure-5, we see that As an example for employees as Engineers, there would be 43,636 Senior Engineer and Engineer roles retiring. And, the Menotor staff available at 529 Senior Engineers available with possibly another 190 experienced Engineers, for a total of 719 as Mentors. Therefore, 719 Mentors for an expected 43,636 new Engineer employees, for a ratio of 60 employees per Mentor.
+  2. When looking at the numbers of employees as possible Mentors, shown in Figure-5, we see that for employees as Engineers, there would be 43,636 Senior Engineer and Engineer roles retiring. And, the Mentor staff at 529 Senior Engineers available with possibly another 190 experienced Engineers, for a total of 719 as Mentors. Therefore, 719 Mentors for an expected 43,636 new Engineer employees, for a ratio of 60 employees per Mentor.
   
-  3. Based on the above information and insights, it woudl be recommended that the P-H look at other programs to mitigate the Tsunami. Other programs to be considered could include: 1) Hiring more advanced levels and for experience, where Mentoring is not a requirement, 2) Implement Training Programs for new-Hires, that take into accout the large loss of experienced employees, 3) Establish retaining enticements such as bonuses and income to experienced retiring qualified employees to remain working and as Mentors longer to fill the gaps in time to hire and train new people. 
+  3. Based on the above information and insights, it would be recommended that the P-H look at other programs to mitigate the Tsunami. Other programs to be considered could include: 
+    - Hiring more advanced levels and for experience, where Mentoring is not a requirement, 
+    - Implement Training Programs for new-Hires, that take into accout the large loss of experienced employees, 
+    - Establish retaining enticements such as bonuses and income to experienced retiring qualified employees to remain working and as Mentors longer to fill the gaps in time to hire and train new people. 
   
 
 
