@@ -84,17 +84,14 @@ The ERD flowchart highlights the type of information contained within data table
 
 .
 
-  1. Diligence on the use of "dates":
-  
+  1. Diligence on the use of "dates":  
     For accurate analysis, great care was needed when using the employee "from_date" and "to_date" data. As was noted, there were duplicate employee numbers ("emp_no"), and were created when an employee's titled changed over their career, and the record remained in the data. In order to arrive at accurate numbers for total employees, and for retiring employees, as well as those that were candidates for the Mentorship Program, attention was needed to use the correct date.
   
-  2. Recommnedation on correct date for accuracy: 
-  
+  2. Recommnedation on correct date for accuracy:   
     Instructions within 2nd part of the assignment Challenge included using the from_date from the "Department Employee" table. However, to arrive at an accurate date for the most recent employee title, it may be recommended to instead use the from_date within the "Titles" table.   
     
   3. Large percentage of retirees expected: 
-  
-    From the data, the company has a very large number of total employees at about 300,000. A retirement scenario exists that a large number of employees are reaching the retirement age, and as a result will create the possibility for a "silver tsunami", where a large number will retire within a 3-4 year window. There are over 90,000 employees witin the retirement window, and this represents a large percentage of employees at approximately 30%. A third of the workforce would be retiring within a 3-4 year window. As the company has realized, advanced planning is needed for such a large percent. 
+      From the data, the company has a very large number of total employees at about 300,000. A retirement scenario exists that a large number of employees are reaching the retirement age, and as a result will create the possibility for a "silver tsunami", where a large number will retire within a 3-4 year window. There are over 90,000 employees witin the retirement window, and this represents a large percentage of employees at approximately 30%. A third of the workforce would be retiring within a 3-4 year window. As the company has realized, advanced planning is needed for such a large percent. 
     
   4. 
 
@@ -130,7 +127,7 @@ Provide high-level responses to the following questions, then provide two additi
   
 
 
-| **Retirees by Titles** | **Retirees by Department** |  **Mentorship Count per Title**  |
+| **Retirees by Title** | **Retirees by Department** |  **Mentorship Count per Title**  |
 | :--- | :---  | :---  |
 |  **Figure-3** The Number of Retiring Employees by Title | **Figure-4** The Number of Retiring Employees by Department | **Figure-5** The number of employees and their titles, eligible for the Mentorship Program.  |
 | ![retiring_titles.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/retiring_titles.png) | ![retire_dept.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/retire_dept.png) | ![mentorship_count.png](https://github.com/larrydodson/Pewlett-Hackard-Analysis/blob/master/mentorship_count.png) |
